@@ -1,1 +1,89 @@
+/*Global Styles*/
+body {
+	background-image: url(img/pattern-background-mobile.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: var(--light-blue);
+	font-size: 16px;
+	color: var(--med-blue);
+}
 
+
+/*Font Styles*/
+h1 {
+	font-size: 1.5rem;
+	color: var(--dark-blue);
+	font-weight: 900;
+}
+
+.boldText {
+
+}
+
+
+/*Container Styles*/
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.order-summary__holder {
+	min-width: 340px;
+	border-radius: 10px;
+	margin:15px;
+	text-align: center;
+}
+
+.order-summary__content-container {
+	padding: 15px;
+}
+
+.annual-plan__holder {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: var(--pale-blue);
+	border-radius: 10px;
+}
+
+/*Button Styles*/
+.button a {
+	display: inline-block;
+	width: 100%;
+}
+
+.button__blue a {
+	padding: 15px;
+	background-color: var(--bright-blue);
+	border-radius: 10px
+	box-shadow: 0px 8px 15px -2px rgba(245, 247, 255, 0.3)
+	font-weight: 700;
+	color: var(--pale-blue);
+}
+
+
+/*Order Summary Styles*/
+.order-summary__image-container img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.annual-plan__icon img {
+	padding: 10px;
+	border-radius: 25px;
+	background-color: var(--light-blue);
+}
+
+
+/*Attribution Styles*/
+
+
+/*Media Queries*/
+@media screen and (min-width: 375px){
+	.order-summary__holder {
+		max-width: 450px;
+	}
+}
