@@ -141,12 +141,12 @@ span {
 
 /*Attribution Styles*/
 .attribution {
-	text-align: center;
 	padding: 10px;
+	text-align: center;
+	font-size: 11px;
 }
 
 .attribution a {
-	font-size: 11px;
 	color: hsl(228, 45%, 44%);
 }
 
