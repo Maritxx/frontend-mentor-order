@@ -22,12 +22,7 @@ h1 {
 
 
 /*Container Styles*/
-.container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 100vh;
-}
+
 
 .order-summary__holder {
 	max-width: 500px;
