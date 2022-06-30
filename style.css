@@ -26,8 +26,12 @@ h1 {
 	max-width: 300px;
 	margin: 0 auto;
 	padding: 20px 0px;
+	line-height: 1.5;
 }
 
+span {
+	line-height: 1.5;
+}
 
 /*Container Styles*/
 .order-summary {
@@ -154,6 +158,6 @@ h1 {
 	}
 
 	span, .annual-plan__button a {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 }
