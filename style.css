@@ -145,6 +145,11 @@ span {
 	padding: 10px;
 }
 
+.attribution a {
+	font-size: 11px;
+	color: hsl(228, 45%, 44%);
+}
+
 
 
 /*Media Queries*/
