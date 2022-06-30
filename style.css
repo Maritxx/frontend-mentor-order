@@ -33,6 +33,10 @@ span {
 	line-height: 1.5;
 }
 
+a {
+	font-size: 0.9rem;
+}
+
 /*Container Styles*/
 .order-summary {
 	min-height: calc(100vh - 41px);
@@ -45,7 +49,7 @@ span {
 	max-width: 450px;
 	width: calc(100% - 50px);
 	background-color: var(--white);
-	border-radius: 10px;
+	border-radius: 20px;
 	margin: 0 auto;	
 }
 
@@ -61,7 +65,7 @@ span {
 	justify-content: flex-start;
 	align-items: center;
 	background-color: var(--pale-blue);
-	border-radius: 10px;
+	border-radius: 20px;
 	padding: 20px;
 }
 
@@ -79,7 +83,7 @@ span {
 .button__blue a {
 	padding: 15px;
 	background-color: var(--bright-blue);
-	border-radius: 10px;
+	border-radius: 20px;
 	font-weight: 700;
 	color: var(--pale-blue);
 }
@@ -87,7 +91,7 @@ span {
 .button__blue {
 	box-shadow: -1px 15px 15px 3px #3829e038;
 	margin-top: 30px;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 
 .button__blue:hover a {
@@ -102,7 +106,6 @@ span {
 	text-decoration: underline;
 	color: var(--bright-blue);
 	font-weight: 700;
-	font-size: 0.9rem;
 }
 
 .annual-plan__button:hover a {
@@ -115,7 +118,7 @@ span {
 }
 
 .button__faded a {
-	font-weight: 700;
+	font-weight: 900;
 }
 
 .button__faded:hover a {
@@ -128,8 +131,8 @@ span {
 	display: block;
 	width: 100%;
 	overflow: hidden;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
 }
 
 .annual-plan__icon img {
@@ -162,7 +165,7 @@ span {
 		font-size: 1.5rem;
 	}
 
-	span, .annual-plan__button a {
+	span {
 		font-size: 0.9rem;
 	}
 }
