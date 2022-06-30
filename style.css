@@ -44,7 +44,7 @@ h1 {
 
 .order-summary__content-container {
 	max-width: 400px;
-	padding: 15px;
+	padding: 25px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -144,5 +144,13 @@ h1 {
 @media screen and (max-width: 375px) {
 	body {
 		background-image: url(img/pattern-background-mobile);
+	}
+	
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	p, a {
+		font-size: 0.8rem;
 	}
 }
