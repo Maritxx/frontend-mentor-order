@@ -5,7 +5,6 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: var(--light-blue);
-	font-size: 16px;
 	color: var(--med-blue);
 }
 
@@ -31,14 +30,18 @@ h1 {
 }
 
 .order-summary__holder {
-	min-width: 340px;
+	max-width: 500px;
+	width: calc(100% - 50px);
+	background-color: var(--white);
 	border-radius: 10px;
-	margin:15px;
-	text-align: center;
+	margin: 0 auto;	
 }
 
 .order-summary__content-container {
-	padding: 15px;
+	max-width: 450px;
+	padding: 30px 15px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .annual-plan__holder {
@@ -82,8 +85,12 @@ h1 {
 
 
 /*Media Queries*/
-@media screen and (min-width: 375px){
+@media screen and (max-width: 375px){
 	.order-summary__holder {
 		max-width: 450px;
+	}
+
+	.order-summary__content-container {
+	padding: 50px 25px;
 	}
 }
